@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25000B4E194D434C001A3682 /* JGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25000B4D194D434C001A3682 /* JGTableViewController.m */; };
 		25C43908193ED84200A6274E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C43907193ED84200A6274E /* Foundation.framework */; };
 		25C4390A193ED84200A6274E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C43909193ED84200A6274E /* CoreGraphics.framework */; };
 		25C4390C193ED84200A6274E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4390B193ED84200A6274E /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		25C43914193ED84200A6274E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C43913193ED84200A6274E /* main.m */; };
 		25C43918193ED84200A6274E /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C43917193ED84200A6274E /* JGAppDelegate.m */; };
 		25C4391B193ED84200A6274E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C43919193ED84200A6274E /* Main.storyboard */; };
-		25C4391E193ED84200A6274E /* JGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C4391D193ED84200A6274E /* JGViewController.m */; };
 		25C43920193ED84200A6274E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C4391F193ED84200A6274E /* Images.xcassets */; };
 		25C43927193ED84200A6274E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C43926193ED84200A6274E /* XCTest.framework */; };
 		25C43928193ED84200A6274E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C43907193ED84200A6274E /* Foundation.framework */; };
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25000B4C194D434C001A3682 /* JGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTableViewController.h; sourceTree = "<group>"; };
+		25000B4D194D434C001A3682 /* JGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTableViewController.m; sourceTree = "<group>"; };
 		25C43904193ED84200A6274E /* UITableViewController Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C43907193ED84200A6274E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25C43909193ED84200A6274E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +47,6 @@
 		25C43916193ED84200A6274E /* JGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
 		25C43917193ED84200A6274E /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
 		25C4391A193ED84200A6274E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25C4391C193ED84200A6274E /* JGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGViewController.h; sourceTree = "<group>"; };
-		25C4391D193ED84200A6274E /* JGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGViewController.m; sourceTree = "<group>"; };
 		25C4391F193ED84200A6274E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		25C43925193ED84200A6274E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C43926193ED84200A6274E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				25C43916193ED84200A6274E /* JGAppDelegate.h */,
 				25C43917193ED84200A6274E /* JGAppDelegate.m */,
 				25C43919193ED84200A6274E /* Main.storyboard */,
-				25C4391C193ED84200A6274E /* JGViewController.h */,
-				25C4391D193ED84200A6274E /* JGViewController.m */,
+				25000B4C194D434C001A3682 /* JGTableViewController.h */,
+				25000B4D194D434C001A3682 /* JGTableViewController.m */,
 				25C4391F193ED84200A6274E /* Images.xcassets */,
 				25C4390E193ED84200A6274E /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25000B4E194D434C001A3682 /* JGTableViewController.m in Sources */,
 				25C43914193ED84200A6274E /* main.m in Sources */,
-				25C4391E193ED84200A6274E /* JGViewController.m in Sources */,
 				25C43918193ED84200A6274E /* JGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +457,7 @@
 				25C43938193ED84200A6274E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25C43939193ED84200A6274E /* Build configuration list for PBXNativeTarget "UITableViewController Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				25C4393B193ED84200A6274E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
